@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f8d9b93-74d7-4181-a7a4-4f751310a822" name="Default Changelist" comment="Initial Version2">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/loading_plane.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/async/NetworkCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/custom/shared_preference/FastException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/custom/shared_preference/FastSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/database/AppDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/database/CRLdao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/database/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/database/MetaDataDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/database/TempStudentdao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/interfaces/ConnectionReceiverListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/interfaces/NetworkCallListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/modalclasses/API_Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/modalclasses/HomeOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/modalclasses/Model_ReplaceTab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/modalclasses/Model_ReportLost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/blockLeader/Inventory/InventoryFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/blockLeader/home/BlockLeaderHomeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/blockLeader/tabHolders/TabHolderFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/blockLeader/tabHolders/TabHoldersAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/assignedToMe/AssignedToMeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/assignedToMe/DeviceListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/replaceTablet/ReplaceFormFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/replaceTablet/ReplaceTabItemClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/replaceTablet/ReplaceTabListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/replaceTablet/ReplaceTabletFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/reportLost/ReportLostFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/reportLost/ReportlostFormFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/util/ConnectionReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/util/LocaleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/util/PA_Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/util/PermissionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pratham/admin/util/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/bottom_nav_select.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/assign_tablet_png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_settings_grey_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_call_grey_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_date_calender_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_error_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_notifications_grey_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_grey_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sms_grey_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sync_white_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sync_white_48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_update_brown_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lost_tablet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangular_search_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/replace_tablet_png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/request_tablet_png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner_whitebg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_for_desputed_tab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_tv_for_assigned_tab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_tv_for_unassigned_tab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_background_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sync_round_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_mydevices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_request_tablet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_block_leader_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inventory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_replace_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_replace_tablet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_report_lost.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_reportlost_form.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tab_holder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_device_list_withcheckbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_home_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_tab_holders.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Version2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vFPKCWll3867pAIOVRfhlTYCK9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="alldocube-t806-IRA8W20191110" />
+    <property name="DEBUGGABLE_PROCESS" value="com.pratham.admin" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-12T12:40:14.619Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/pratham/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/assets" />
+    <property name="multi-representation-previewC:/Users/pratham/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Android Projects\AdminAppV2\app\src\main\assets" />
+      <recent name="D:\Android Projects\AdminAppV2\app\src\main\res" />
+      <recent name="D:\Android Projects\AdminApp\app\src\main\java\com\pratham\admin\custom" />
+      <recent name="D:\Android Projects\AdminApp\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.2115845598">
+      <recent name="com.pratham.admin.activities" />
+    </key>
+    <key name="android.template.-1944298103">
+      <recent name="com.pratham.admin.activities.ui" />
+      <recent name="com.pratham.admin.activities" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pratham.admin.ui.blockLeader.tabHolders" />
+      <recent name="com.pratham.admin.ui.home.replaceTablet" />
+      <recent name="com.pratham.admin.ui.home.assignedToMe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android Projects\AdminApp\app\src\main\res\color" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="AdminAppV2.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f8d9b93-74d7-4181-a7a4-4f751310a822" name="Default Changelist" comment="" />
+      <created>1626154797624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626154797624</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Version2">
+      <created>1626241537700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626241537700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Version2">
+      <created>1626241661993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626241661993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Version2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="275" key="#Notifications" timestamp="1630059625619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1630059625619" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1632370261638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1632370261638" />
+    <state x="405" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631008199488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="405" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1631008199488" />
+    <state x="542" y="281" width="498" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631528757858">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="281" width="498" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1631528757858" />
+    <state x="551" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1627561280743">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1627561280743" />
+    <state x="281" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627986326633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="281" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1627986326633" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627889506098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1627889506098" />
+    <state x="100" y="100" width="1336" height="624" key="AVDManager" timestamp="1626257955657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1626257955657" />
+    <state x="367" y="226" key="AndroidCreateResourceFileDialog" timestamp="1632201030391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="226" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1632201030391" />
+    <state x="565" y="159" key="AndroidProcessChooserDialog" timestamp="1632207707522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="159" key="AndroidProcessChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1632207707522" />
+    <state x="549" y="139" key="FileChooserDialogImpl" timestamp="1630064839085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="139" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1630064839085" />
+    <state width="1491" height="174" key="GridCell.Tab.0.bottom" timestamp="1632484151722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632484151722" />
+    <state width="1491" height="174" key="GridCell.Tab.0.center" timestamp="1632484151722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632484151722" />
+    <state width="1491" height="174" key="GridCell.Tab.0.left" timestamp="1632484151721">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632484151721" />
+    <state width="1491" height="174" key="GridCell.Tab.0.right" timestamp="1632484151722">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632484151722" />
+    <state width="1491" height="305" key="GridCell.Tab.1.bottom" timestamp="1632216129772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632216129772" />
+    <state width="1491" height="305" key="GridCell.Tab.1.center" timestamp="1632216129772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="305" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1632216129772" />
+    <state width="1491" height="305" key="GridCell.Tab.1.left" timestamp="1632216129772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="305" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1632216129772" />
+    <state width="1491" height="305" key="GridCell.Tab.1.right" timestamp="1632216129772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="305" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1632216129772" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1632546828154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1632546828154" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1626241671162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626241671162" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1626432736309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1626432736309" />
+    <state x="375" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1631339145109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="375" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1631339145109" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1632546861718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1632546861718" />
+    <state x="638" y="109" width="650" height="534" key="find.popup" timestamp="1632318916946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="638" y="109" width="650" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1632318916946" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1631339140022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1631339140022" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/assignedToMe/AssignedToMeFragment.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/assignedToMe/AssignedToMeFragment.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/login/LoginActivity.java</url>
+          <line>586</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/login/LoginActivity.java</url>
+          <line>590</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/login/LoginActivity.java</url>
+          <line>617</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/login/LoginActivity.java</url>
+          <line>697</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/HomeFragment.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/async/NetworkCalls.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/HomeFragment.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/reportLost/ReportLostFragment.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/async/NetworkCalls.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/async/NetworkCalls.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/reportLost/ReportLostFragment.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/reportLost/ReportLostFragment.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/HomeFragment.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/pratham/admin/ui/home/replaceTablet/ReplaceTabletFragment.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="response" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background"
+    android:gravity="center_horizontal"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="#111111"
+        android:fontFamily="@font/glacialindifferencebold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"/>
+
+<!--    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:padding="@dimen/_5sdp"
+        android:drawableLeft="@drawable/ic_search_grey_24dp"
+        android:drawablePadding="@dimen/_5sdp"
+        android:hint="Search"
+        android:background="@drawable/rectangular_search_bg"
+        android:layout_below="@+id/tv_label"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tv_label">
+
+        <LinearLayout
+            android:id="@+id/requestTablet"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/request_tablet_png" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowRadius="5"
+                android:text="Request Tablet"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/grey_800"
+                android:fontFamily="@font/glacialindifferencebold"
+                app:cornerRadius="@dimen/_15sdp"
+                app:elevation="@dimen/_10sdp"
+                app:backgroundTint="@color/grey_100"
+                android:textAppearance="@dimen/_5sdp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/replaceTab"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_toEndOf="@+id/requestTablet"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/replace_tablet_png" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowRadius="5"
+                android:text="Replace Tablet"
+                android:textColor="@color/grey_800"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/glacialindifferencebold"
+                app:cornerRadius="@dimen/_15sdp"
+                app:elevation="@dimen/_10sdp"
+                app:backgroundTint="@color/grey_100"
+                android:textAppearance="@dimen/_5sdp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reportLost"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_below="@+id/requestTablet"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/lost_tablet" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowRadius="5"
+                android:text="Report Lost"
+                android:textColor="@color/grey_800"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/glacialindifferencebold"
+                app:cornerRadius="@dimen/_15sdp"
+                app:elevation="@dimen/_10sdp"
+                app:backgroundTint="@color/grey_100"
+                android:textAppearance="@dimen/_5sdp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/assigned_to_me"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_below="@id/requestTablet"
+            android:layout_toEndOf="@+id/reportLost"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/assign_tablet_png" />
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowRadius="5"
+                android:text="@string/assigned_to_me"
+                android:textColor="@color/grey_800"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/glacialindifferencebold"
+                app:cornerRadius="@dimen/_15sdp"
+                app:elevation="@dimen/_10sdp"
+                app:backgroundTint="@color/grey_100"
+                android:textAppearance="@dimen/_5sdp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

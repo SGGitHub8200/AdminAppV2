@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="8dp"
+            tools:context=".activities.SelectProgram">
+
+            <RelativeLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <HorizontalScrollView
+                    android:id="@+id/radioscroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true">
+
+                    <RadioGroup
+                        android:id="@+id/rg_programs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="16dp"
+                        android:background="#f2dddc"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rbtn_hybrid_learning"
+                            style="@style/CustomRadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:text="@string/hybrid_learning" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_readindia"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/read_india" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_second_chance"
+                            style="@style/CustomRadioButton"
+                            android:enabled="true"
+                            android:text="@string/second_chance" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_ece"
+                            style="@style/CustomRadioButton"
+                            android:enabled="true"
+                            android:text="@string/ECE" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_pratham_institute"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/pratham_institute" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_urbanProgram"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/urbon_program" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_hamaraGao"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/hamara_gaon" />
+
+                        <RadioButton
+                            android:id="@+id/rbtn_govPartnership"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/government_Partnership" />
+
+                        <RadioButton
+                            android:id="@+id/KGBV"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/KGBV" />
+
+                        <RadioButton
+                            android:id="@+id/Digital_School_Program"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/DigitalSchoolProgram" />
+
+                        <RadioButton
+                            android:id="@+id/Read_India_Michelin"
+                            style="@style/CustomRadioButton"
+                            android:text="@string/ReadIndiaMichelin" />
+                    </RadioGroup>
+                </HorizontalScrollView>
+    -->
+
+    <LinearLayout
+        android:id="@+id/spinner_LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Program"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"/>
+
+        <Spinner
+            android:id="@+id/spinner_program"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gradient_spinner_selectprogram"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <Spinner
+            android:id="@+id/spinner_state"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gradient_spinner_selectprogram"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+        <Spinner
+            android:id="@+id/spinner_block"
+            style="@style/spinner_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:background="@drawable/gradient_spinner_selectprogram"
+            android:entries="@array/block"
+            android:layout_marginTop="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <!-- <Spinner
+         android:id="@+id/spinner_village"
+         style="@style/spinner_style"
+         android:background="@drawable/gradient_spinner_selectprogram"
+         android:layout_width="350dp"
+         android:layout_height="50dp"
+         android:layout_below="@id/spinner_LL"
+         android:entries="@array/village"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="30dp" />
+
+     <Space
+         android:layout_width="match_parent"
+         android:layout_height="10dp"
+         android:layout_below="@id/spinner_village" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="@dimen/_15sdp">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pullData"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:elevation="15dp"
+            android:enabled="false"
+            android:text="@string/pulldata"
+            app:cornerRadius="@dimen/_10sdp"
+            android:textColor="#ffffff" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_saveData"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_style"
+            android:elevation="15dp"
+            android:enabled="false"
+            android:text="@string/savedata"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pullDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/rounded_border"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Preview"
+            android:textSize="@dimen/_15sdp"
+            android:textAlignment="center"
+            android:fontFamily="@font/glacialindifferencebold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/button_purple"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:id="@+id/tv_CrlCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tv_StudentCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_GroupCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_CourseCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_CoachCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_CommunityCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_CompletionCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_AserCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tv_YounthCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Okay"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/glacialindifferenceregular"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_15sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textAlignment="center"
+            android:textAppearance="@dimen/_5sdp"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_10sdp"
+            android:fontFamily="@font/glacialindifferencebold"
+            app:cornerRadius="@dimen/_5sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textAlignment="center"
+                android:textAppearance="@dimen/_5sdp"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/glacialindifferencebold"
+                app:cornerRadius="@dimen/_5sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_20sdp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
